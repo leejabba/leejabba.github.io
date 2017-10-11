@@ -1,26 +1,46 @@
 * {
-  @include box-sizing;
-  line-height: 1.5;
+    @include box-sizing;
+    line-height: 1.5;
+    font-family: 'Nanum Gothic', serif;
+}
+
+
+/* style.css */
+
+
+/* 본문 텍스트로 쓰일 font는 클래스 수정 */
+
+p,
+form {
+    font-family: 'Nanum Gothic', serif;
+    font-size: 20px;
+}
+
+
+/* footer용 font로 쓰일 클래스는 신규추가 */
+
+.footer-text {
+    font-family: 'Jeju Gothic', serif;
+    font-size: 16px;
 }
 
 html,
 body {
-  color: $default-color;
-  margin: 0;
-  padding: 0;
+    color: $default-color;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  font-family: $baskerville;
-  font-size: 14px;
-
-  @media (min-width: 600px) {
-    font-size: 16px;
-  }
+    font-family: $baskerville;
+    font-size: 14px;
+    @media (min-width: 600px) {
+        font-size: 16px;
+    }
 }
 
 body {
-  -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 h1,
@@ -29,37 +49,35 @@ h3,
 h4,
 h5,
 h6 {
-  color: $default-shade;
-  font-family: $sans-font;
-  line-height: normal;
+    color: $default-shade;
+    font-family: $sans-font;
+    line-height: normal;
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
+    color: $blue;
+    text-decoration: none;
 }
 
 blockquote {
-  border-left: .25rem solid $grey-2;
-  color: $grey-1;
-  margin: .8rem 0;
-  padding: .5rem 1rem;
-
-  p:last-child {
-    margin-bottom: 0;
-  }
-
-  @media (min-width: 600px) {
-    padding: 0 5rem 0 1.25rem;
-  }
+    border-left: .25rem solid $grey-2;
+    color: $grey-1;
+    margin: .8rem 0;
+    padding: .5rem 1rem;
+    p:last-child {
+        margin-bottom: 0;
+    }
+    @media (min-width: 600px) {
+        padding: 0 5rem 0 1.25rem;
+    }
 }
 
 img {
-  display: block;
-  margin: 0 0 1rem;
-  max-width: 100%;
+    display: block;
+    margin: 0 0 1rem;
+    max-width: 100%;
 }
 
 td {
-  vertical-align: top;
+    vertical-align: top;
 }
