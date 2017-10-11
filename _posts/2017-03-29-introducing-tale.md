@@ -13,6 +13,12 @@ Tale is minimal [Jekyll](https://jekyllrb.com/) theme curated for storytellers. 
 - 마크다운과 HTML 문법을 지원합니다.
 - 포스트 목록의 페이지 네비게이션을 지원합니다.
 
+```java
+public void TestClass () {
+  int a;
+}
+```
+
 Head over to the [Example Content]({{ site.url }}/2017-03-16/example-content) post for a showcase of Tale's text formatting features.
 
 ## Browser Support
