@@ -1,15 +1,33 @@
 ---
 layout: post
 title: "About"
-author: "Chester"
+author: "jabba"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+# Profile
+- 이름: 이행곤
+- 닉네임: 이자빠(자빠질라)
+- 나이: 79년생
+- 거주지: 부천시
+- 활동지: 서울시
+- 취미: 농구, 테니스, 사회인 야구, 린디합
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+# History
+## 2017년
+- 패스트 캠퍼스 안드로이드 스쿨 3기 수료
+## 2008년 ~ 2016년
+- 툴 상사 퇴사
+- 다온 입사: LG 아이스크림폰, 시크릿폰 등의 P.O.P 대량 제작 매니저
+## 2007년
+- 툴 상사 입사: 시트 커팅, 아크릴 가공
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+# Skill
+- 제조 공구 조작: CNC, 시트커팅기, 실사출력기, 각종 목공 공구(테이블 쏘, 루터 등)
+- 프로그래밍 언어
+-- Main: JAVA, ANDROID
+-- Sub: NODEJS, VUE2, JQUERY, HTML, CSS
 
-Thanks for reading!
+# Contact
+- [dlgodrhs@gmail.com](mailto://dlgodrhs@gmail.com)
+- [Tistory](http://jabba.tistory.com/)
