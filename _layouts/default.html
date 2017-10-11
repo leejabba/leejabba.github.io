@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
     <nav class="nav">
-      <div class="nav-container">
-        <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
-        </a>
-        <ul>
-          <li><a href="{{ '/about' | prepend: site.url }}">About</a></li>
-          <li><a href="{{ site.baseurl }}/">Posts</a></li>
-        </ul>
-    </div>
-  </nav>
+        <div class="nav-container">
+            <a href="{{ site.baseurl }}/">
+                <h2 class="nav-title">{{ site.title }}</h2>
+            </a>
+            <ul>
+                <li><a href="{{ '/about' | prepend: site.url }}">About</a></li>
+                <li><a href="{{ site.baseurl }}/">Posts</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <main>
-      {{ content }}
+        {{ content }}
     </main>
 
     <footer>
-      <span>
+        <div class="inner">
+            <p class="footer-text">2017, Hongsik Alex Lee<br>
+                <a href="{{ site.facebook }}">
+                    <span class="fa-stack fa-sm">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                <a href="{{ site.github }}">
+                    <span class="fa-stack fa-sm">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+            </p>
+        </div>
+        <span>
         &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
       </span>
     </footer>
-  </body>
+</body>
+
 </html>
